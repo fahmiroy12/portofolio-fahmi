@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portofolio - Teknisi Pendingin Tata Udara | Fahmi</title>
+  <meta name="description" content="Portofolio profesional Teknisi Pendingin & Tata Udara - instalasi, servis, perancangan." />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="dark">
+
+<div class="container">
+  <header class="header">
+    <div class="brand">
+      <div class="logo" aria-hidden="true">HV</div>
+      <div class="title">
+        <h1 id="name">Fahmi</h1>
+        <p id="headline">Teknisi Pendingin & Tata Udara • Instalasi • Servis • Perancangan</p>
+      </div>
+    </div>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#about">Tentang</a>
+      <a href="#projects">Proyek</a>
+      <a href="#skills">Keahlian</a>
+      <a href="#contact">Kontak</a>
+      <div class="controls">
+        <button id="theme-toggle" class="btn ghost" aria-pressed="false">Light</button>
+        <a id="cv-btn" class="btn" href="#">Unduh CV</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="card" id="about">
+      <h2>Halo, saya <span id="name-inline">Fahmi</span></h2>
+      <p class="small" id="about-text">Saya adalah teknisi pendingin tata udara berpengalaman dalam instalasi, troubleshooting, dan perawatan sistem pendingin untuk rumah, kantor, dan fasilitas komersial. Fokus pada efisiensi energi, keselamatan kerja, dan solusi yang tahan lama.</p>
+
+      <div style="margin-top:12px;display:flex;gap:8px;flex-wrap:wrap">
+        <button class="btn" id="contact-wa">Hubungi via WhatsApp</button>
+        <a class="btn ghost" href="#projects">Lihat Proyek</a>
+      </div>
+
+      <h3 style="margin-top:18px">Ringkasan</h3>
+      <ul>
+        <li>Pengalaman: <strong id="experience">5+ tahun</strong></li>
+        <li>Bidang: Instalasi AC Split/VRF, AHU, Ducting, Refrigerant handling</li>
+        <li>Sertifikasi: <span id="certs">Handling Refrigerant, K3</span></li>
+      </ul>
+    </div>
+
+    <aside class="card profile" aria-labelledby="profile-heading">
+      <div class="avatar">
+        <img src="profil.jpg" alt="Foto Profil Teknik Pendingin" style="width:70%; height:70%; border-radius:18px; object-fit:cover;">
+      </div>
+      <div>
+        <div style="font-weight:700" id="name-card">Fahmi</div>
+        <div class="small">Teknisi Pendingin Tata Udara</div>
+        <div class="small">Lokasi: <span id="location">Karawang, Indonesia</span></div>
+        <div class="small">Email: <a id="email" href="mailto:roy616843@gmail.com">roy616843@gmail.com</a></div>
+        <div style="margin-top:8px"><a id="linkedin" href="#" class="tag-pill">LinkedIn</a></div>
+      </div>
+    </aside>
+  </section>
+
+  <section class="sections">
+    <main>
+      <div class="card" id="projects">
+        <h2>Proyek Pilihan</h2>
+        <p class="small">Contoh proyek nyata atau dokumentasi singkat yang menunjukkan kompetensi.</p>
+        <div style="margin:10px 0;display:flex;gap:8px;flex-wrap:wrap">
+          <button class="btn ghost" data-filter="*">Semua</button>
+          <button class="btn ghost" data-filter="res">Residensial</button>
+          <button class="btn ghost" data-filter="com">Komersial</button>
+          <button class="btn ghost" data-filter="maint">Maintenance</button>
+        </div>
+        <div class="projects" id="projects-grid">
+          <!-- pengisian di script.js -->
+        </div>
+      </div>
+
+      <div class="card" id="skills">
+        <h2>Keahlian & Sertifikat</h2>
+        <div class="skill">
+          <div class="label"><span>Instalasi AC Split & VRF</span><span>100%</span></div>
+          <div class="bar"><i style="width:100%"></i></div>
+        </div>
+        <div class="skill">
+          <div class="label"><span>Perawatan & Troubleshooting</span><span>100%</span></div>
+          <div class="bar"><i style="width:100%"></i></div>
+        </div>
+        <div class="skill">
+          <div class="label"><span>Perencanaan Ducting & AHU</span><span>100%</span></div>
+          <div class="bar"><i style="width:100%"></i></div>
+        </div>
+        <h3 style="margin-top:12px">Sertifikat</h3>
+        <ul>
+          <li>Handling Refrigerant (contoh: R410A/R32/R22/R134)</li>
+          <li>K3 & Kesehatan Keselamatan Kerja</li>
+          <li>Pelatihan HVAC Controls (BAS)</li>
+        </ul>
+      </div>
+
+      <div class="card" id="testimonials">
+        <h2>Testimoni</h2>
+        <div class="grid-row" id="testi-grid">
+          <div class="testimonial">"Pekerjaan cepat, rapih, dan profesional." — <strong>Pak Fahmi</strong></div>
+          <div class="testimonial">"Rekomendasi terbaik untuk servis AC kantor kami." — <strong>CV. MANDIRI JAYA TEKNIK</strong></div>
+        </div>
+      </div>
+    </main>
+
+    <aside class="card aside" id="contact">
+      <h3>Kontak</h3>
+      <p class="small">Hubungi untuk penawaran, estimasi, atau konsultasi instalasi.</p>
+      <ul class="contact-list">
+        <li><strong>WhatsApp:</strong> <a href="https://wa.me/6285888681958" target="_blank">+6285888681958</a></li>
+        <li><strong>Email:</strong> <a id="email2" href="mailto:roy616843@gmail.com">roy616843@gmail.com</a></li>
+        <li><strong>LinkedIn:</strong> <a id="linkedin2" href="#">linkedin.com/in/username</a></li>
+        <li><strong>Lokasi:</strong> <span id="loc2">Karawang, Indonesia]</span></li>
+      </ul>
+
+      <hr style="opacity:.06;margin:12px 0">
+      <h4>Layanan Utama</h4>
+      <ul>
+        <li>Instalasi & Commissioning</li>
+        <li>Preventive & Corrective Maintenance</li>
+        <li>Cooling Load Calculation</li>
+        <li>Retrofit & Upgrade Sistem</li>
+      </ul>
+
+      <div style="margin-top:12px">
+        <button class="btn" id="print-btn">Cetak / Simpan sebagai PDF</button>
+      </div>
+    </aside>
+  </section>
+
+  <footer>
+    © <span id="year"></span> <span id="name-foot">Fahmi]</span> — Dibuat dengan ❤️ untuk HVAC.
+  </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
